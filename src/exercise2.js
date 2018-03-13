@@ -14,8 +14,8 @@ function filter(array) {
 var mapCustomer = function(input) {
   var result = {
       firstname: input.firstname ,
-      lastname: input.lastname,
-      products: input.products,
+      lastname: input.lastname ,
+      products: input.products ,
       moneySpent: filter(input.products)
     }
 }
